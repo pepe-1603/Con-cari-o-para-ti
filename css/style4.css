@@ -13,6 +13,16 @@ body{
     color: #212529;
     
 }
+h1{
+    background-color: rgb(219, 194, 194);
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    line-height:  1.5em;
+    letter-spacing: 1px;
+
+}
 
 section{
     padding-top: 80px;
