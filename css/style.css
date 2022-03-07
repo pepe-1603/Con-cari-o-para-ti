@@ -41,8 +41,9 @@ ul {
 
 }
 .nav_menu a{
-
+    color: blueviolet;
     text-decoration: none;
+    font-weight: 700;
 }
 .nav_menu a:hover{
     color: whitesmoke;
@@ -51,9 +52,10 @@ ul {
 }
 .navbar:hover{
     transform: translateY(-5px);
-    border-radius: 65px;
+    border-top-right-radius: 65px;
     box-shadow: 0 5px 8px rgba(235, 229, 229, 1);
     font-size: 30px;
+    background-color: rgb(8, 8, 8);
 }
 
 
