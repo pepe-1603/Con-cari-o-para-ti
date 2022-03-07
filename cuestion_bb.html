@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>¿Quieres ser Mi novia?</h1>
+
+        <div>
+            <input class="btn"  type="button" id="btn_si" value="SI" onclick="EllaDiceSi()">
+            <input class="btn" type="button" id="btn_no" value="NO">
+            <br>
+            <br>
+            <h2 id="titulo">Esperando Respuesta ....</h2>
+        </div>
+    </div>
+
+    <script src="archivos_js/question.js"></script>
+    <script>
+var bandera=false;
+
+function cambiar(){
+    document.getElementById('titulo').innerHTML = "Hoo k mal, Gracias por ser sincera"
+}
+/*
+document.getElementById('titulo').onclick = function(){
+    var width = windows.innerWidth;
+
+   var  heigth = windows.innerHeigth;
+
+    var newWidth = (Math.random() * width);
+    var newHeigth = (Math.random() * heigth);
+    document.getElementById('btn_no').style.left = newWidth + "px";
+    document.getElementById('btn_no').style.top = newHeigth + "px";
+    alert('--------- end ------------');
+}
+*/
+document.getElementById('btn_no').onclick = function(){
+    cambiar();
+}
+
+document.getElementById('btn_si').onclick = function(){
+    document.getElementById('titulo').innerHTML = "jejeje.. Ahora somos Novios"
+}
+
+
+    </script>
+</body>
+</html>
